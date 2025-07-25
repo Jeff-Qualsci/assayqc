@@ -1,16 +1,16 @@
 Package: assayqc
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Title: Statistical Process Control Tools for In Vitro Biological Assays
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jeffrey", "Weidner", , "jeff@qualsci.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0439-5447"))
+Description: Statistical tools to validate in vitro bioassay performance and 
+    document reproducibility over time for both efficacy and potency result 
+    types. The statistical analyses are based upon the recommendations from the
+    NIH Assay Guidance Manual. You provide the data, specify type of result the
+    assay produces, and select the analysis. These tools will generate the
+    summary statistics and data plots.
+License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
